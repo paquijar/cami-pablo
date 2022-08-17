@@ -29,10 +29,10 @@ const Home: NextPage = () => {
             conocido y de que nuestros caminos se hayan cruzado. Desde que te vi
             por primera vez pude ver la gran persona que eres y a medida que te
             he ido conociendo lo sigo confirmando cada vez más, eres la mujer
-            que quiero a mi lado. Porque eres atenta, dedicada, juiciosa,
-            responsable, ordenada, amable, cariñosa, trabajadora y además de
-            todo esto y muchas cualidades más eres demasiado hermosa, tienes una
-            carita preciosa y un cuerpazo espectacular.
+            que quiero a mi lado. Porque eres atenta, dedicada, inteligente,
+            juiciosa, responsable, ordenada, amable, cariñosa, trabajadora y
+            además de todo esto y muchas cualidades más eres demasiado hermosa,
+            tienes una carita preciosa y un cuerpazo espectacular.
           </p>
           <p className="mb-5">
             Quiero que sigamos construyendo juntos esto tan bonito que tenemos
