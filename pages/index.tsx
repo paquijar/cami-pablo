@@ -2,12 +2,12 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <div className="p-4">
-      <h1 className="text-center text-3xl capitalize mb-8 font-bold">
+    <div className="p-5 py-10">
+      <h1 className="text-center text-3xl capitalize mb-10 font-bold">
         ❤️ MI HERMOSA 😍
       </h1>
       <div className="text-lg">
-        <p className="mb-4">
+        <p className="mb-5">
           No te imaginas lo afortunado y feliz que me siento de haberte conocido
           y de que nuestros caminos se hayan cruzado. Desde que te vi por
           primera vez pude ver la gran persona que eres y a medida que te he ido
@@ -17,14 +17,14 @@ const Home: NextPage = () => {
           cualidades más eres demasiado hermosa, tienes una carita preciosa y un
           cuerpazo espectacular.
         </p>
-        <p className="mb-4">
+        <p className="mb-5">
           Quiero que sigamos construyendo juntos esto tan bonito que tenemos
           ahora, porque como hemos dicho, este es solo el comienzo. Todavía nos
           queda mucho por recorrer, muchos destinos del mundo por visitar a tu
           lado, muchos años por vivir juntos (mínimo unos 100), 4 hijos
           hermosos, 5 perros y 3 gatos.
         </p>
-        <p className="mb-8">
+        <p className="mb-10">
           Por la conexión tan grande que tenemos, lo bien que nos
           complementamos, porque podemos contar el uno con el otro para lo que
           sea. Porque cuando veo esos ojitos brillar y esa hermosa sonrisa, se
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         </p>
       </div>
       <h2 className="text-center text-2xl font-bold">
-        💖 ¿Quieres ser mi novia? 💖
+        ♥️ ¿Quieres ser mi novia? ♥️
       </h2>
     </div>
   );
