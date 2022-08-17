@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
+import { useState } from "react";
 
 const Home: NextPage = () => {
+  const [clicked, setClicked] = useState(false);
   return (
     <div className="p-5 py-10">
       <h1 className="text-center text-3xl capitalize mb-10 font-bold">
@@ -33,9 +35,21 @@ const Home: NextPage = () => {
           hoy te pregunto…
         </p>
       </div>
-      <h2 className="text-center text-2xl font-bold">
-        ♥️ ¿Quieres ser mi novia? ♥️
-      </h2>
+      <div className="flex justify-center content-center">
+        {!clicked && (
+          <button
+            className="bg-rose-500 hover:bg-rose-700 text-white font-bold py-2 px-4 rounded-full"
+            onClick={() => setClicked(true)}
+          >
+            Ver pregunta
+          </button>
+        )}
+        {clicked && (
+          <h2 className="text-center text-pink-900 text-2xl font-bold">
+            ♥️ ¿Quieres ser mi novia? ♥️
+          </h2>
+        )}
+      </div>
     </div>
   );
 };

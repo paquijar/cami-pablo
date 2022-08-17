@@ -8,5 +8,6 @@
   }
   body {
     @apply bg-pink-300;
+    @apply text-gray-900;
   }
 }
