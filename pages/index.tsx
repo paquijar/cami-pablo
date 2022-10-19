@@ -18,6 +18,7 @@ const Home: NextPage = () => {
         <div className="flex flex-col gap-5">
           <Item image="/novios.jpg" link="/novios" title="Novios" />
           <Item image="/mes-1.jpg" link="/mes-1" title="Mes 1" />
+          <Item image="/mes-2.jpg" link="/mes-2" title="Mes 2" />
         </div>
       </div>
     </>
