@@ -17,7 +17,7 @@ const Mes5 = () => {
         </p>
       </div>
       <video width="100%" height="300" controls className="mb-10">
-        <source src="/mes-5.mp4" type="video/mp4" />
+        <source src="/mes-5.MP4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
